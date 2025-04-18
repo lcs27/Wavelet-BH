@@ -66,7 +66,7 @@ fig.savefig('./result/signal.png',dpi=600)
 plt.close()
 
 ## Spectrogram with Gaussian Window
-# # Prepare
+# Prepare
 window_len = 64
 overlap = 62
 nfft = 64
