@@ -23,7 +23,7 @@ high = np.zeros((level+1,N)) # high coefficients, [0,d1,d2,d3,d4,d5,d6]
 
 def expand(a, N):
     """
-    NumPy version of array expansion with zeros.
+    Array expansion with zeros.
     
     Parameters:
         a: Original Numpy array
@@ -90,5 +90,5 @@ ax.plot(recon, label=f'Reconstruct')
 ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.15), ncol=2)
 ax.set_xlim(0,N)
 fig.tight_layout()
-fig.savefig(f'./result/Recon.png')
+fig.savefig(f'./result/DyadicWavelet_Recon.png')
 plt.close()
